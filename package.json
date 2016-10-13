@@ -1,0 +1,29 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "simple-server dist 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjieCodes/review.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjieCodes/review/issues"
+  },
+  "homepage": "https://github.com/benjieCodes/review#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babelify": "^7.3.0",
+    "simple-server": "^1.0.1"
+  }
+}
